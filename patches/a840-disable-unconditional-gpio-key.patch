@@ -1,0 +1,18 @@
+diff -uNr linux-3.4-at16/arch/arm/mach-shmobile/Kconfig.armadillo800 linux-3.4-at16-sysfs/arch/arm/mach-shmobile/Kconfig.armadillo800
+--- linux-3.4-at16/arch/arm/mach-shmobile/Kconfig.armadillo800	2015-09-28 16:48:24.000000000 +0900
++++ linux-3.4-at16-sysfs/arch/arm/mach-shmobile/Kconfig.armadillo800	2016-01-10 02:17:15.019922711 +0900
+@@ -188,10 +188,10 @@
+ 	select ARMADILLO840_FSIA_SLAVE
+ 	select ARMADILLO840_FSIA_SLAVE_DEVICE_WM8978
+ 	select ARMADILLO840_GPIO_KEY
+-	select ARMADILLO840_GPIO_KEY_POWER_PORT97
+-	select ARMADILLO840_GPIO_KEY_BACK_PORT98
+-	select ARMADILLO840_GPIO_KEY_MENU_PORT99
+-	select ARMADILLO840_GPIO_KEY_HOME_PORT100
++#	select ARMADILLO840_GPIO_KEY_POWER_PORT97
++#	select ARMADILLO840_GPIO_KEY_BACK_PORT98
++#	select ARMADILLO840_GPIO_KEY_MENU_PORT99
++#	select ARMADILLO840_GPIO_KEY_HOME_PORT100
+ 	select ARMADILLO840_I2C0_DEVICE_ST1232
+ 	select ARMADILLO840_LCDC0
+ 	select ARMADILLO840_LCDC0_HAVE_D18_D23
